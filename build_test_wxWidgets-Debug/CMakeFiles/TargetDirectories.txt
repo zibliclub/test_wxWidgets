@@ -1,0 +1,3 @@
+D:/prog/cpp/GitHub/test_wxWidgets/build_test_wxWidgets-Debug/CMakeFiles/testGUI.dir
+D:/prog/cpp/GitHub/test_wxWidgets/build_test_wxWidgets-Debug/CMakeFiles/edit_cache.dir
+D:/prog/cpp/GitHub/test_wxWidgets/build_test_wxWidgets-Debug/CMakeFiles/rebuild_cache.dir
