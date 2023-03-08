@@ -1,2 +1,3 @@
-build_sec_test_wxWidgets-Debug
+build_test_wxWidgets-Debug
+build
 .vscode
