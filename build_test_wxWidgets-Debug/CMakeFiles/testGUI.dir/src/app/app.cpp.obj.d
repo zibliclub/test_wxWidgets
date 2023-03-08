@@ -1,6 +1,6 @@
 CMakeFiles/testGUI.dir/src/app/app.cpp.obj: \
- D:\prog\cpp\GitHub\test_wxWidgets\src\app\app.cpp \
- D:\prog\cpp\GitHub\test_wxWidgets\src\app\app.h \
+ D:\prog_university\GitHub\test_wxWidgets\src\app\app.cpp \
+ D:\prog_university\GitHub\test_wxWidgets\src\app\app.h \
  C:/wxWidgets/include/wx/wx.h C:/wxWidgets/include/wx/defs.h \
  C:/wxWidgets/include/wx/platform.h C:/wxWidgets/include/wx/compiler.h \
  C:/wxWidgets/lib/gcc1220_x64_dll/mswu/wx/setup.h \
@@ -533,4 +533,4 @@ CMakeFiles/testGUI.dir/src/app/app.cpp.obj: \
  C:/wxWidgets/include/wx/valtext.h C:/wxWidgets/include/wx/filedlg.h \
  C:/wxWidgets/include/wx/msw/filedlg.h C:/wxWidgets/include/wx/mdi.h \
  C:/wxWidgets/include/wx/msw/mdi.h \
- D:/prog/cpp/GitHub/test_wxWidgets/src/main_frame/main_frame.h
+ D:/prog_university/GitHub/test_wxWidgets/src/main_frame/main_frame.h

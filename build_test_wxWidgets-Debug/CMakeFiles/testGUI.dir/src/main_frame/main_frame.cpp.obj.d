@@ -1,6 +1,6 @@
 CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.obj: \
- D:\prog\cpp\GitHub\test_wxWidgets\src\main_frame\main_frame.cpp \
- D:\prog\cpp\GitHub\test_wxWidgets\src\main_frame\main_frame.h \
+ D:\prog_university\GitHub\test_wxWidgets\src\main_frame\main_frame.cpp \
+ D:\prog_university\GitHub\test_wxWidgets\src\main_frame\main_frame.h \
  C:/wxWidgets/include/wx/wx.h C:/wxWidgets/include/wx/defs.h \
  C:/wxWidgets/include/wx/platform.h C:/wxWidgets/include/wx/compiler.h \
  C:/wxWidgets/lib/gcc1220_x64_dll/mswu/wx/setup.h \

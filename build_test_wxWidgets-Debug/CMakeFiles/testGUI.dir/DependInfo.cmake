@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/prog/cpp/GitHub/test_wxWidgets/src/app/app.cpp" "CMakeFiles/testGUI.dir/src/app/app.cpp.obj" "gcc" "CMakeFiles/testGUI.dir/src/app/app.cpp.obj.d"
-  "D:/prog/cpp/GitHub/test_wxWidgets/src/main_frame/main_frame.cpp" "CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.obj" "gcc" "CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.obj.d"
+  "D:/prog_university/GitHub/test_wxWidgets/src/app/app.cpp" "CMakeFiles/testGUI.dir/src/app/app.cpp.obj" "gcc" "CMakeFiles/testGUI.dir/src/app/app.cpp.obj.d"
+  "D:/prog_university/GitHub/test_wxWidgets/src/main_frame/main_frame.cpp" "CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.obj" "gcc" "CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

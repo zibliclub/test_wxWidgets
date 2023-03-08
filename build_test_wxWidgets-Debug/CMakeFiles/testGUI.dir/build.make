@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\prog\cpp\GitHub\test_wxWidgets
+CMAKE_SOURCE_DIR = D:\prog_university\GitHub\test_wxWidgets
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\prog\cpp\GitHub\test_wxWidgets\build_test_wxWidgets-Debug
+CMAKE_BINARY_DIR = D:\prog_university\GitHub\test_wxWidgets\build_test_wxWidgets-Debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/testGUI.dir/depend.make
@@ -70,33 +70,33 @@ include CMakeFiles/testGUI.dir/flags.make
 
 CMakeFiles/testGUI.dir/src/app/app.cpp.obj: CMakeFiles/testGUI.dir/flags.make
 CMakeFiles/testGUI.dir/src/app/app.cpp.obj: CMakeFiles/testGUI.dir/includes_CXX.rsp
-CMakeFiles/testGUI.dir/src/app/app.cpp.obj: D:/prog/cpp/GitHub/test_wxWidgets/src/app/app.cpp
+CMakeFiles/testGUI.dir/src/app/app.cpp.obj: D:/prog_university/GitHub/test_wxWidgets/src/app/app.cpp
 CMakeFiles/testGUI.dir/src/app/app.cpp.obj: CMakeFiles/testGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\prog\cpp\GitHub\test_wxWidgets\build_test_wxWidgets-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testGUI.dir/src/app/app.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testGUI.dir/src/app/app.cpp.obj -MF CMakeFiles\testGUI.dir\src\app\app.cpp.obj.d -o CMakeFiles\testGUI.dir\src\app\app.cpp.obj -c D:\prog\cpp\GitHub\test_wxWidgets\src\app\app.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\prog_university\GitHub\test_wxWidgets\build_test_wxWidgets-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testGUI.dir/src/app/app.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testGUI.dir/src/app/app.cpp.obj -MF CMakeFiles\testGUI.dir\src\app\app.cpp.obj.d -o CMakeFiles\testGUI.dir\src\app\app.cpp.obj -c D:\prog_university\GitHub\test_wxWidgets\src\app\app.cpp
 
 CMakeFiles/testGUI.dir/src/app/app.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testGUI.dir/src/app/app.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\prog\cpp\GitHub\test_wxWidgets\src\app\app.cpp > CMakeFiles\testGUI.dir\src\app\app.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\prog_university\GitHub\test_wxWidgets\src\app\app.cpp > CMakeFiles\testGUI.dir\src\app\app.cpp.i
 
 CMakeFiles/testGUI.dir/src/app/app.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testGUI.dir/src/app/app.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\prog\cpp\GitHub\test_wxWidgets\src\app\app.cpp -o CMakeFiles\testGUI.dir\src\app\app.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\prog_university\GitHub\test_wxWidgets\src\app\app.cpp -o CMakeFiles\testGUI.dir\src\app\app.cpp.s
 
 CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.obj: CMakeFiles/testGUI.dir/flags.make
 CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.obj: CMakeFiles/testGUI.dir/includes_CXX.rsp
-CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.obj: D:/prog/cpp/GitHub/test_wxWidgets/src/main_frame/main_frame.cpp
+CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.obj: D:/prog_university/GitHub/test_wxWidgets/src/main_frame/main_frame.cpp
 CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.obj: CMakeFiles/testGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\prog\cpp\GitHub\test_wxWidgets\build_test_wxWidgets-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.obj -MF CMakeFiles\testGUI.dir\src\main_frame\main_frame.cpp.obj.d -o CMakeFiles\testGUI.dir\src\main_frame\main_frame.cpp.obj -c D:\prog\cpp\GitHub\test_wxWidgets\src\main_frame\main_frame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\prog_university\GitHub\test_wxWidgets\build_test_wxWidgets-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.obj -MF CMakeFiles\testGUI.dir\src\main_frame\main_frame.cpp.obj.d -o CMakeFiles\testGUI.dir\src\main_frame\main_frame.cpp.obj -c D:\prog_university\GitHub\test_wxWidgets\src\main_frame\main_frame.cpp
 
 CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\prog\cpp\GitHub\test_wxWidgets\src\main_frame\main_frame.cpp > CMakeFiles\testGUI.dir\src\main_frame\main_frame.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\prog_university\GitHub\test_wxWidgets\src\main_frame\main_frame.cpp > CMakeFiles\testGUI.dir\src\main_frame\main_frame.cpp.i
 
 CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testGUI.dir/src/main_frame/main_frame.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\prog\cpp\GitHub\test_wxWidgets\src\main_frame\main_frame.cpp -o CMakeFiles\testGUI.dir\src\main_frame\main_frame.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\prog_university\GitHub\test_wxWidgets\src\main_frame\main_frame.cpp -o CMakeFiles\testGUI.dir\src\main_frame\main_frame.cpp.s
 
 # Object files for target testGUI
 testGUI_OBJECTS = \
@@ -121,7 +121,7 @@ testGUI.exe: C:/wxWidgets/lib/gcc1220_x64_dll/libwxexpatd.a
 testGUI.exe: CMakeFiles/testGUI.dir/linkLibs.rsp
 testGUI.exe: CMakeFiles/testGUI.dir/objects1.rsp
 testGUI.exe: CMakeFiles/testGUI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\prog\cpp\GitHub\test_wxWidgets\build_test_wxWidgets-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable testGUI.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\prog_university\GitHub\test_wxWidgets\build_test_wxWidgets-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable testGUI.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\testGUI.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -133,6 +133,6 @@ CMakeFiles/testGUI.dir/clean:
 .PHONY : CMakeFiles/testGUI.dir/clean
 
 CMakeFiles/testGUI.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\prog\cpp\GitHub\test_wxWidgets D:\prog\cpp\GitHub\test_wxWidgets D:\prog\cpp\GitHub\test_wxWidgets\build_test_wxWidgets-Debug D:\prog\cpp\GitHub\test_wxWidgets\build_test_wxWidgets-Debug D:\prog\cpp\GitHub\test_wxWidgets\build_test_wxWidgets-Debug\CMakeFiles\testGUI.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\prog_university\GitHub\test_wxWidgets D:\prog_university\GitHub\test_wxWidgets D:\prog_university\GitHub\test_wxWidgets\build_test_wxWidgets-Debug D:\prog_university\GitHub\test_wxWidgets\build_test_wxWidgets-Debug D:\prog_university\GitHub\test_wxWidgets\build_test_wxWidgets-Debug\CMakeFiles\testGUI.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/testGUI.dir/depend
 

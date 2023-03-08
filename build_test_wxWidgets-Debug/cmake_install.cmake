@@ -1,4 +1,4 @@
-# Install script for directory: D:/prog/cpp/GitHub/test_wxWidgets
+# Install script for directory: D:/prog_university/GitHub/test_wxWidgets
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/prog/cpp/GitHub/test_wxWidgets/build_test_wxWidgets-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/prog_university/GitHub/test_wxWidgets/build_test_wxWidgets-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
