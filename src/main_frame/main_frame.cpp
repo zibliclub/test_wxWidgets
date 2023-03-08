@@ -13,6 +13,10 @@ END_EVENT_TABLE()
 
 MainFrame::MainFrame(const wxString &title) : wxFrame(nullptr, wxID_ANY, title)
 {
+    wxSize *size = new wxSize(800, 600);
+    this->SetMinClientSize(*size);
+    this->Center();
+
     wxMenu *menuFile = new wxMenu;
     wxMenu *menuNewMatrix = new wxMenu;
     menuFile->Append(wxID_ANY, "New Matrix...\t Ctrl+N", menuNewMatrix, "Open the file with the matrix or create a new one");
