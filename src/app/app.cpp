@@ -6,6 +6,7 @@ wxIMPLEMENT_APP(App);
 bool App::OnInit()
 {
     MainFrame *mainFrame = new MainFrame("Testing Program");
+    mainFrame->Center();
     mainFrame->Show();
     
 

@@ -16,20 +16,16 @@ MainFrame::MainFrame(const wxString &title) : wxFrame(nullptr, wxID_ANY, title)
 {
     SetIcon(wxICON(icon_frame));
 
-    wxSize *size = new wxSize(800, 600);
-    this->SetMinClientSize(*size);
-    this->Center();
+    // wxMenu *menuFile = new wxMenu;
+    // wxMenu *menuNewMatrix = new wxMenu;
+    // menuFile->Append(wxID_ANY, "New Matrix...\t Ctrl+N", menuNewMatrix, "Open the file with the matrix or create a new one");
+    // menuNewMatrix->Append(ID_Open_From_A_File, "Open from a file", "Open the file with the matrix (binary or typed)");
+    // menuNewMatrix->Append(ID_Create_Matrix, "Create Matrix", "Create a new matrix (fill manually or with random values)");
 
-    wxMenu *menuFile = new wxMenu;
-    wxMenu *menuNewMatrix = new wxMenu;
-    menuFile->Append(wxID_ANY, "New Matrix...\t Ctrl+N", menuNewMatrix, "Open the file with the matrix or create a new one");
-    menuNewMatrix->Append(ID_Open_From_A_File, "Open from a file", "Open the file with the matrix (binary or typed)");
-    menuNewMatrix->Append(ID_Create_Matrix, "Create Matrix", "Create a new matrix (fill manually or with random values)");
+    // wxMenuBar *menuBar = new wxMenuBar;
+    // menuBar->Append(menuFile, "&File");
 
-    wxMenuBar *menuBar = new wxMenuBar;
-    menuBar->Append(menuFile, "&File");
-
-    SetMenuBar(menuBar);
+    // SetMenuBar(menuBar);
 
     wxPanel *panel_left = new wxPanel(this, wxID_ANY, wxDefaultPosition, wxSize(200, 500));
     panel_left->SetBackgroundColour(wxColor(240, 244, 245));
@@ -65,7 +61,7 @@ MainFrame::MainFrame(const wxString &title) : wxFrame(nullptr, wxID_ANY, title)
 
     this->SetSizerAndFit(sizer);
 
-    CreateStatusBar();
+    // CreateStatusBar();
 }
 
 void MainFrame::OpenFile(wxCommandEvent &WXUNUSED(event))
