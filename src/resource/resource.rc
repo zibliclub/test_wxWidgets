@@ -1,0 +1,3 @@
+#include "resource.h"
+
+icon_frame ICON "../../images/main_window_icon.ico"

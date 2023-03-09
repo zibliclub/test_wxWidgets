@@ -10,9 +10,10 @@ include(${wxWidgets_USE_FILE})
 file(GLOB project_GLOB
     src/app/*
     src/main_frame/*
+    src/resource/*
 )
 
-add_executable(testGUI ${project_GLOB})
+add_executable(testGUI ${project_GLOB} main.manifest)
 
 target_link_libraries(testGUI ${wxWidgets_LIBRARIES})
 target_include_directories(testGUI PRIVATE ${wxWidgets_INCLUDE_DIRS})
