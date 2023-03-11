@@ -8,9 +8,8 @@ enum
 };
 
 BEGIN_EVENT_TABLE(MainFrame, wxFrame)
-    EVT_MENU(ID_Open_From_A_File, MainFrame::OpenFile)
+EVT_MENU(ID_Open_From_A_File, MainFrame::OpenFile)
 END_EVENT_TABLE()
-
 
 MainFrame::MainFrame(const wxString &title) : wxFrame(nullptr, wxID_ANY, title)
 {
@@ -45,15 +44,19 @@ MainFrame::MainFrame(const wxString &title) : wxFrame(nullptr, wxID_ANY, title)
     button_create->SetFont(buttonFont);
     button_create->Center(wxHORIZONTAL);
 
-    wxPanel *panel_right = new wxPanel(this, wxID_ANY, wxDefaultPosition, wxSize(800, 500));
+    wxPanel *panel_right = new wxPanel(this, wxID_ANY, wxDefaultPosition, wxSize(550, 500));
     panel_right->SetBackgroundColour(wxColor(*wxWHITE));
 
     wxStaticText *bigText = new wxStaticText(panel_right, wxID_ANY, wxT("Индивидуальное задание №5"), wxPoint(20, 20));
     wxStaticText *smallText = new wxStaticText(panel_right, wxID_ANY,
-        wxT("Отсортировать строки матрицы по неубыванию абсолютных величин сумм их элементов. Сортировка бинарными включениями."),
-        wxPoint(20, 70));
+                                               wxT("Отсортировать строки матрицы по неубыванию абсолютных величин сумм их элементов.\nСортировка бинарными включениями."),
+                                               wxPoint(20, 70));
 
     bigText->SetFont(bigTextFont);
+
+    wxPNGHandler *handler = new wxPNGHandler;
+    wxImage::AddHandler(handler);
+    wxStaticBitmap *image = new wxStaticBitmap(panel_right, wxID_ANY, wxBitmap("D:/prog/cpp/GitHub/test_wxWidgets/images/sort_matrix.png", wxBITMAP_TYPE_PNG), wxPoint(20, 200));
 
     wxBoxSizer *sizer = new wxBoxSizer(wxHORIZONTAL);
     sizer->Add(panel_left, 0, wxEXPAND);
