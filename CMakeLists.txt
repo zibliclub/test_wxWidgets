@@ -11,6 +11,7 @@ file(GLOB project_GLOB
     src/app/*
     src/main_frame/*
     src/resource/*
+    src/create_matrix_frame/*
 )
 
 add_executable(testGUI ${project_GLOB} main.manifest)

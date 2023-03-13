@@ -6,10 +6,10 @@
 class MainFrame : public wxFrame
 {
 private:
-
 public:
     MainFrame(const wxString &);
-    void OpenFile(wxCommandEvent&);
+    void OpenFile(wxCommandEvent &);
+    void CreateMatrix(wxCommandEvent &);
 
     wxString CurrentDocPath;
 
